@@ -28,7 +28,9 @@ app.use(cors());
 
 // Api root
 const userRoute = require('./routes/user.route')
-app.use('/endpoint', userRoute)
+const postRoute = require('./routes/post.route')
+app.use('/users', userRoute)
+app.use('/posts', postRoute)
 
 // Create port
 const port = process.env.PORT || 8080;

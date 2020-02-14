@@ -1,3 +1,3 @@
 module.exports = {
-    db: 'mongodb://localhost:27017/restapi'
+    db: 'mongodb://rest:apirest1@ds139360.mlab.com:39360/heroku_r4vllwbq'
   }
